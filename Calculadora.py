@@ -18,7 +18,7 @@ def rlc_serie():
     r = float(input('Digite o valor de resistência: '))
     l = float(input('Digite o valor de indução: '))
     c = float(input('Digite o valor de capacitância: '))
-    f = int(input('Digite o valor da frequência em hz: '))
+    f = float(input('Digite o valor da frequência em hz: '))
           
     xl = 2 * math.pi * f * l
     xc = 1 /(2* math.pi * f * c)
@@ -31,7 +31,7 @@ def rlc_paralelo():
     r = float(input('Digite o valor de resistência: '))
     l = float(input('Digite o valor de indução: '))
     c = float(input('Digite o valor de capacitância: '))
-    f = int(input('Digite o valor de frequência: '))
+    f = float(input('Digite o valor de frequência: '))
 
     xl = 1/(2 * math.pi * f * l)
     xc = 2 * math.pi * f * c
